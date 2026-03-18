@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* ✅ Heading Variants */
+/* ✅ Body Variants */
+.text-link {
+  font-family: var(--font-jakarta);
+  font-weight: 500;
+  color: var(--color-black-500);
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.typo-text {
+  white-space: pre-line;
+}
+
+.style-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+}
+
+.style-3 {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+}
+
+.side-menu-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+}
+
+.nav-menu-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+}
+
+.head-text {
+  font-weight: 700;
+  font-size: 32.35px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+.head-text-1 {
+  font-weight: 700;
+  font-size: 25.35px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.head-text-2 {
+  font-weight: 700;
+  font-size: 16.35px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.head-text-3 {
+  font-weight: 400;
+  font-size: 16.35px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.head-text-4 {
+  font-weight: 700;
+  font-size: 19.35px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.color-name {
+  font-weight: 500;
+  font-size: 11.7px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.gradient-text {
+  font-weight: 700;
+  font-size: 14.35px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  background: linear-gradient(90deg, #5B8CFF 0%, #A15BFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  border: none;
+}

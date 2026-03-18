@@ -1,0 +1,113 @@
+.what-we-do {
+
+  /* ===== MAIN GRID ===== */
+
+  .what-we-do-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-186);
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      gap: var(--sp-24);
+    }
+  }
+
+  /* ===== LEFT SECTION ===== */
+
+  .what-we-do-left {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .what-we-do-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-16);
+    width: 100%;
+  max-width: 474px;
+
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    
+  }
+
+  .what-we-do-title {
+    color: var(--color-black-500);
+    font-weight: 600;
+  }
+
+  .what-we-do-desc {
+    color: var(--color-black-400);
+  }
+
+  /* ===== RIGHT ICON GRID ===== */
+
+  .what-we-do-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 66px;
+
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--sp-24);
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--sp-16);
+    }
+  }
+
+  /* ===== ICON CARD ===== */
+
+  .what-we-do-icon-card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media (max-width: 900px) {
+     width: 100%;
+    }
+  }
+
+  /* ===== ICON CIRCLE ===== */
+
+  .what-we-do-icon-circle {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F9F9F91A;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .what-we-do-icon-circle::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #FF2883 0%, #FF5A4D 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .what-we-do-icon-circle:hover::after {
+    opacity: 1;
+  }
+
+  .what-we-do-icon-circle img {
+    position: relative;
+    z-index: 2;
+  }
+
+}

@@ -1,0 +1,93 @@
+
+// /* ============================= */
+// /* Clash Display – ImageKit CDN  */
+// /* ============================= */
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Extralight.otf") format("opentype");
+//   font-weight: 200;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Light.otf") format("opentype");
+//   font-weight: 300;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Regular.otf") format("opentype");
+//   font-weight: 400;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "RockSalt";
+//   src: url("https://ik.imagekit.io/flyde/RockSalt-Regular.ttf") format("opentype");
+//   font-weight: 400;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Medium.otf") format("opentype");
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Semibold.otf") format("opentype");
+//   font-weight: 600;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "ClashDisplay";
+//   src: url("https://ik.imagekit.io/flyde/ClashDisplay-Bold.otf") format("opentype");
+//   font-weight: 700;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// /* Global font variable */
+// :root {
+//   --font-primary: "ClashDisplay", sans-serif;
+//   --font-rock-salt: 'RockSalt', sans-serif;
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* AUTO-GENERATED GOOGLE FONT VARIABLES */
+:root {
+  
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+/* FONT FAMILY UTILITY CLASSES */
+.font-rock-salt { font-family: var(--font-rock-salt); }
+.font-montserrat { font-family: var(--font-montserrat); }
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* AUTO-GENERATED GOOGLE FONT VARIABLES */
+:root {
+  --font-rock-salt: 'Rock Salt', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-primary: var(--font-rock-salt);
+}
+
+/* FONT FAMILY UTILITY CLASSES */
+.font-rock-salt { font-family: var(--font-rock-salt); }
+.font-montserrat { font-family: var(--font-montserrat); }

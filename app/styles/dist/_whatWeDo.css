@@ -1,0 +1,168 @@
+.why-do .why-do-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-186);
+}
+@media (max-width: 900px) {
+  .why-do .why-do-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "cards" "button";
+  }
+}
+@media (max-width: 900px) {
+  .why-do .why-do-grid {
+    gap: 0px;
+  }
+  .why-do .why-left-1 {
+    margin-bottom: var(--sp-32);
+  }
+  .why-do .why-right {
+    gap: var(--sp-24);
+  }
+}
+.why-do .why-left-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 900px) {
+  .why-do .why-left-1 {
+    grid-area: header;
+  }
+}
+.why-do .why-left-1 .why-label {
+  color: var(--color-black-400);
+  font-weight: 500;
+}
+.why-do .why-left-1 .why-title {
+  color: var(--color-black-500);
+  font-weight: 600;
+}
+.why-do .why-left-1 .why-desc {
+  color: var(--color-black-400);
+  margin-bottom: var(--sp-32);
+}
+@media (max-width: 450px) {
+  .why-do .why-left-1 .why-desc {
+    margin-bottom: 0;
+  }
+}
+.why-do .why-left-1 .why-btn {
+  background-color: var(--color-lime);
+  border-radius: var(--radius-xl);
+  width: fit-content;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+@media (max-width: 650px) {
+  .why-do .why-left-1 .why-btn {
+    display: none;
+  }
+}
+.why-do .why-left-1 .why-btn:hover {
+  opacity: 0.9;
+}
+.why-do .why-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-16);
+}
+.why-do .why-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-40);
+}
+@media (max-width: 900px) {
+  .why-do .why-right {
+    grid-area: cards;
+  }
+}
+@media (max-width: 700px) {
+  .why-do .why-right {
+    grid-template-columns: 1fr;
+  }
+}
+.why-do .why-right .why-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: var(--color-blue-300);
+  transition: all 0.3s ease;
+}
+.why-do .why-right .why-card:hover {
+  transform: translateY(-4px);
+}
+.why-do .why-right .why-card .why-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-lime);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.why-do .why-right .why-card .why-card-title {
+  color: var(--color-black-500);
+  font-weight: 600;
+  margin-bottom: var(--sp-4);
+}
+.why-do .why-right .why-card .why-card-desc {
+  color: var(--color-black-400);
+}
+.why-do .mobile-button-container {
+  display: none;
+}
+@media (max-width: 650px) {
+  .why-do .mobile-button-container {
+    display: flex;
+    justify-content: start;
+    grid-area: button;
+    text-align: center;
+    margin-top: var(--sp-32);
+  }
+}
+@media (max-width: 900px) {
+  .why-do .why-right {
+    gap: var(--sp-24);
+  }
+}
+.why-do .why-right-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 66px;
+}
+.why-do .why-grid-card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.why-do .icon-circle {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #dbdada;
+  position: relative;
+  overflow: hidden;
+}
+.why-do .icon-circle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #FF2883 0%, #FF5A4D 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.why-do .icon-circle:hover::after {
+  opacity: 1;
+}
+.why-do .icon-circle img,
+.why-do .icon-circle svg {
+  position: relative;
+  z-index: 1;
+}

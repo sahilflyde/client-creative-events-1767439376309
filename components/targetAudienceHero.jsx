@@ -1,8 +1,8 @@
-import ImageCard from "./card";
-import GridSection from "./gridWrapper";
+import ImageCards from "./imageCard";
+import GridSection from "./gridHero";
 import Container from "./spacing";
 
-export default function TargetAudienceSectionComp(props) {
+export default function TargetAudienceHero(props) {
   const {
     label,
     title,
@@ -10,10 +10,6 @@ export default function TargetAudienceSectionComp(props) {
     columns,
     gap,
     minColWidth,
-    centerTitle,
-    labelVariant = "",
-    titleVariant = "",
-    subtitleVariant = "",
     items: rawItems,
   } = props;
 
@@ -21,12 +17,12 @@ export default function TargetAudienceSectionComp(props) {
   const items = Array.isArray(rawItems)
     ? rawItems
     : typeof rawItems === "object" && rawItems !== null
-    ? Object.values(rawItems)
-    : [];
+      ? Object.values(rawItems)
+      : [];
 
   return (
-    <div id="scrollSecondaryButton" >
-      <Container variant="primary">
+    <div id="scrollSecondaryButton">
+      <Container variant="header">
         <GridSection
           label={label}
           title={title}
@@ -34,15 +30,12 @@ export default function TargetAudienceSectionComp(props) {
           columns={columns}
           gap={gap}
           minColWidth={minColWidth}
-          centerTitle={centerTitle}
-          labelTypo={labelVariant}
-          sectionHeaderTypo={titleVariant}
-          sectionDescTypo={subtitleVariant}
           items={items.map((item) => ({
             colSpan: item.colSpan || 1,
             rowSpan: item.rowSpan || 1,
             component: (
-              <ImageCard
+              <ImageCards
+                link={item.link}
                 heading={item.heading}
                 description={item.description}
                 imageLink={item.imageLink}

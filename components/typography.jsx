@@ -2,8 +2,6 @@ import clsx from "clsx";
 
 const Typography = ({
   variant = "body-2",
-
-  
   overrideVariant, // NEW
   as,
   children,

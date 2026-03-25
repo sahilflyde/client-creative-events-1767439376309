@@ -38,6 +38,7 @@
 @import "./styles/activeMembers.scss";
 @import "./styles/missionSection";
 @import "./styles/venueStage.scss";
+@import "./styles/imageCards";
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -160,6 +161,74 @@ button {
 .leftImageHome {
   width: 189px;
 }
+
+
+/* MODAL OVERLAY */
+.tickets-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* MODAL BOX */
+.tickets-modal {
+  background: #0b0d12;
+  padding: 32px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 420px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+/* CLOSE BUTTON */
+.tickets-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* TITLE */
+.tickets-modal h3 {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+/* GRID */
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* CITY BOX */
+.ticket-city-box {
+  padding: 14px;
+  border-radius: 10px;
+  background: #161a24;
+  border: 1px solid #2a2f3d;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.ticket-city-box:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+
 
 .rightImageHome {
   width: 202px;

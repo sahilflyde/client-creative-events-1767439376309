@@ -4,7 +4,7 @@ export default {
   reactStrictMode: true,
 
   images: {
-    domains: ["ik.imagekit.io","placehold.co","images.unsplash.com","tickets.oztix.com.au","www.heritagetour.com.au"],
+    domains: ["ik.imagekit.io","placehold.co","images.unsplash.com","drytickets.com.au"],
   },
 
   env: {

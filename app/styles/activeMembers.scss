@@ -54,15 +54,6 @@
   margin-bottom: var(--sp-56);
 }
 
-
-.active-members__video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: inherit;
-}
-
-
 // Responsive
 @media (max-width: 1024px) {
   .active-members__grid {

@@ -2,9 +2,10 @@
 import AboutHeroSection from "./aboutHeroSection";
 import AboutOurStory from "./aboutOurStory";
 import HeroSection from "./heroSection";
-import TargetAudienceSectionComp from "./targetAudienceSection";
-import MetricSection from "./key-metric";
+import MetricsSection from "./key-metric";
 import AboutOurTeam from "./aboutOurTeam";
+import TargetAudienceSectionComp from "./targetAudienceSection";
+import TargetAudienceHero from "./targetAudienceHero";
 import GridVideo from "./GridVideo";
 import TransformSection from "./TransformSection";
 import ContactSupportOptions from "./contactSupportOptions";
@@ -15,9 +16,10 @@ export const componentRegistry = {
   "about-hero": AboutHeroSection,
   "about-our-story": AboutOurStory,
   "hero-section": HeroSection,
-  "target-audience": TargetAudienceSectionComp,
-  "metrics-section": MetricSection,
+  "metrics-section": MetricsSection,
   "about-our-team": AboutOurTeam,
+  "target-audience": TargetAudienceSectionComp,
+  "target-hero":TargetAudienceHero,
   "grid-video": GridVideo,
   "transform-section": TransformSection,
   "contact-support-options": ContactSupportOptions,

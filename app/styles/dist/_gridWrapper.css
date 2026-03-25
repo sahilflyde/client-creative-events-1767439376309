@@ -19,7 +19,6 @@
     grid-template-columns: unset !important;
   }
 }
-
 @media (max-width: 600px) {
   .mainSec {
     gap: var(--sp-32);

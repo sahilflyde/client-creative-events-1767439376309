@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import Container from "./spacing";
+import  Container  from "./spacing";
 import SectionHeader from "./sectionHeader";
 import Image from "next/image";
 
 export default function AboutOurStory({
   label = "Our Story",
   title = "Building Better Hiring Since 2019",
-  align = "left", 
+  align = "left",
   subtitle = [
     "Founded by a team of HR professionals and tech innovators, Hirezy was born from a simple observation: recruitment was broken. Too many tools, too much complexity, and not enough focus on what matters – finding great people.",
     "Today, we serve over 500 companies worldwide, helping them streamline their hiring process and build exceptional teams. Our platform has facilitated more than 10,000 successful hires and continues to evolve based on real feedback from real recruiters.",
@@ -19,7 +19,6 @@ export default function AboutOurStory({
   imageHeight = 520,
   variant = "default",
 }) {
-  console.log("About variant : ", variant);
   return (
     <Container className="about-spacing-two" variant="primary">
       <div className={`about-container ${variant}`}>

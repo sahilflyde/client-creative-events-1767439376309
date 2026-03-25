@@ -19,22 +19,22 @@ function GridItem({ itemData, i, smoothProgress, locked }) {
   const y = useTransform(
     smoothProgress,
     [0, 0.6],
-    locked ? [0, 0] : [startY, 0]
+    locked ? [0, 0] : [startY, 0],
   );
   const scale = useTransform(
     smoothProgress,
     [0, 0.6],
-    locked ? [1, 1] : [startScale, 1]
+    locked ? [1, 1] : [startScale, 1],
   );
   const rotateX = useTransform(
     smoothProgress,
     [0, 0.6],
-    locked ? [0, 0] : [15, 0]
+    locked ? [0, 0] : [15, 0],
   );
   const opacity = useTransform(
     smoothProgress,
     [0.1, 0.6],
-    locked ? [1, 1] : [0.5, 1]
+    locked ? [1, 1] : [0.5, 1],
   );
 
   return (
@@ -50,7 +50,7 @@ function GridItem({ itemData, i, smoothProgress, locked }) {
       }}
       className={clsx(
         itemData.className,
-        "flex justify-center transition-transform"
+        "flex justify-center transition-transform",
       )}
     >
       {itemData.component}
@@ -59,17 +59,12 @@ function GridItem({ itemData, i, smoothProgress, locked }) {
 }
 
 export default function GridSection({
-  label,
-  title,
-  subtitle,
-  centerTitle = "center",
+ 
   gap = "24px",
   columns = 3,
   items = [],
   wrapperClass = "",
-  labelTypo = "",
-  sectionHeaderTypo = "",
-  sectionDescTypo = "",
+
 
   // 🔥 NEW (safe defaults)
   variant = "default",
@@ -111,15 +106,7 @@ export default function GridSection({
 
   return (
     <section className={clsx("mainSec relative", wrapperClass)} ref={ref}>
-      <SectionHeader
-        label={label}
-        title={title}
-        subtitle={subtitle}
-        align={centerTitle}
-        labelTypo={labelTypo}
-        sectionHeaderTypo={sectionHeaderTypo}
-        sectionDescTypo={sectionDescTypo}
-      />
+      
 
       <div
         className="relative grid gridSectionAuto !items-between !auto-rows-max !grid-flow-dense"

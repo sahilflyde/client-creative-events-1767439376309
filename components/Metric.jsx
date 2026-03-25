@@ -57,7 +57,7 @@ export default function Metric({
   number = "250",
   label,
 
-  
+  // ⭐ NEW TYPOGRAPHY OVERRIDES
   numberVariant = "",
   labelVariant = "",
 }) {

@@ -2,6 +2,10 @@
   padding: var(--sp-80) var(--sp-50);
 }
 
+.active-members-spacing {
+  padding: 0 var(--sp-56) var(--sp-128) var(--sp-56);
+}
+
 .header-spacing {
   padding: var(--sp-24) var(--sp-50);
 }

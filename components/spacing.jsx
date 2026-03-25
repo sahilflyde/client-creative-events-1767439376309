@@ -7,7 +7,7 @@ export default function Container({
 }) {
   const variants = {
     primary: "primary-spacing",
-    activeMembers: "active-members-spacing",
+    activeMembers : "active-members-spacing",
     header: "header-spacing",
     heroSpacing: "hero-spacing",
     secondary: "secondary-spacing",
@@ -19,7 +19,6 @@ export default function Container({
     bottomSpacing: "bottom-spacing",
     blockSpacing: "block-spacing",
     pink: "new-container",
-    venueStage: "venue-stage-spacing",
   };
 
   return (

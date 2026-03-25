@@ -2,7 +2,7 @@ import ImageCard from "./card";
 import GridSection from "./gridWrapper";
 import Container from "./spacing";
 
-export default function TargetAudienceSectionComp(props) {
+export default function Hero3Poster(props) {
   const {
     label,
     title,
@@ -11,13 +11,15 @@ export default function TargetAudienceSectionComp(props) {
     gap,
     minColWidth,
     centerTitle,
+
     labelVariant = "",
     titleVariant = "",
     subtitleVariant = "",
+
     items: rawItems,
   } = props;
 
-  //  Convert DB object → array
+  // ⭐ Convert DB object → array
   const items = Array.isArray(rawItems)
     ? rawItems
     : typeof rawItems === "object" && rawItems !== null

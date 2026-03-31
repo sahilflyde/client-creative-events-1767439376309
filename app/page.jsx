@@ -4,8 +4,8 @@ const RenderBlock = dynamic(() => import("../components/RenderBlock"), { ssr: fa
 
 export default async function Page() {
   const res = await fetch(
-    "https://blinkflo-backend.onrender.com/api/websites/creative-events-1767439376309",
-    { cache: "no-store" }
+    "https://blinkflo-backend-vx9r.onrender.com/api/websites/creative-events-1767439376309",
+    { cache: "no-store" },
   );
 
   if (!res.ok) {

@@ -13,6 +13,8 @@ export default async function RootLayout({ children }) {
   );
   const site = await res.json();
 
+ 
+
   // ✅ Decide active color set
   const activeColors =
     site?.darkmodeOn && site?.darkcolors

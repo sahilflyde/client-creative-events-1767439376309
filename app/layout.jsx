@@ -8,7 +8,7 @@ export default async function RootLayout({ children }) {
   const slug = process.env.SITE_SLUG;
 
   const res = await fetch(
-    `https://blinkflo-backend.onrender.com/api/websites/${slug}`,
+    `https://blinkflo-backend-vx9r.onrender.com/api/websites/${slug}`,
     { cache: "no-store" }
   );
   const site = await res.json();

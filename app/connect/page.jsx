@@ -18,7 +18,7 @@ export default async function Page() {
 
   return (
     <main>
-      <ContactSupportOptions {...getSection("contact-support-options")?.props} />
+      <ContactSupportOptions {...getSection("contact-support-options")?.props} site = {site} />
     </main>
   );
 }

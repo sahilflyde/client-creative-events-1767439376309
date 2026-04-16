@@ -1,3 +1,5 @@
+"use client";
+
 import ImageCard from "./card";
 import GridSection from "./gridWrapper";
 import Container from "./spacing";
@@ -21,11 +23,11 @@ export default function TargetAudienceSectionComp(props) {
   const items = Array.isArray(rawItems)
     ? rawItems
     : typeof rawItems === "object" && rawItems !== null
-    ? Object.values(rawItems)
-    : [];
+      ? Object.values(rawItems)
+      : [];
 
   return (
-    <div id="scrollSecondaryButton" >
+    <div id="scrollSecondaryButton">
       <Container variant="primary">
         <GridSection
           label={label}

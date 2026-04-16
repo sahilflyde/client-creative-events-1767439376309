@@ -1,3 +1,5 @@
+"use client";
+
 import ImageCards from "./imageCard";
 import GridSection from "./gridHero";
 import Container from "./spacing";

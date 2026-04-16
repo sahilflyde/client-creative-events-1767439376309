@@ -1,17 +1,16 @@
 import "./globals.scss";
-import RenderBlock from "../components/RenderBlock";
-import ImagePopup from "../components/ImagePopup.jsx";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default async function RootLayout({ children }) {
-  const baseUrl =
-    "https://www.creativeeventsaustralia.com.au";
+  const baseUrl = "https://www.creativeeventsaustralia.com.au";
 
   const res = await fetch(`${baseUrl}/site.json`, {
     cache: "no-store",
   });
 
   const data = await res.json();
-  const site = data[0];
+  const site = Array.isArray(data) ? data[0] : data;
 
   const activeColors =
     site?.darkmodeOn && site?.darkcolors ? site.darkcolors : site?.colors || {};
@@ -26,12 +25,12 @@ export default async function RootLayout({ children }) {
         <title>{site.websiteName}</title>
         <link rel="icon" href={site.favicon} />
 
-        {/* ✅ Fonts */}
+        {/* Fonts */}
         {site?.fonts?.google?.map((font) => (
           <link key={font.family} href={font.importUrl} rel="stylesheet" />
         ))}
 
-        {/* ✅ CSS Variables */}
+        {/* Colors */}
         <style>{`
           :root {
             ${cssVariables}
@@ -40,19 +39,11 @@ export default async function RootLayout({ children }) {
       </head>
 
       <body>
-        {site.layout?.header && (
-          <RenderBlock
-            block={site.layout.header}
-            site={site}
-            logo={site.logo}
-          />
-        )}
+        <Header {...site.layout.header.props} site={site} />
 
         {children}
 
-        {site.layout?.footer && (
-          <RenderBlock block={site.layout.footer} site={site} />
-        )}
+        <Footer {...site.layout.footer.props} site={site} />
       </body>
     </html>
   );

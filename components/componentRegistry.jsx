@@ -26,3 +26,4 @@ export const componentRegistry = {
   "header-sec": Header,
   "footer-section": Footer
 };
+ 

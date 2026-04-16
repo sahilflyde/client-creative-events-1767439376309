@@ -1,3 +1,6 @@
+
+"use client";
+
 import { useEffect } from "react";
 import SectionHeader from "./sectionHeader";
 import Container from "./spacing";

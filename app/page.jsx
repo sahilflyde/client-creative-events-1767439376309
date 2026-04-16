@@ -1,7 +1,11 @@
-import dynamic from "next/dynamic";
-const RenderBlock = dynamic(() => import("../components/RenderBlock"), {
-  ssr: false,
-});
+
+
+import AboutOurTeam from "@/components/aboutOurTeam";
+import GridVideo from "@/components/GridVideo";
+import MetricSection from "@/components/key-metric";
+import TargetAudienceHero from "@/components/targetAudienceHero";
+import TargetAudienceSectionComp from "@/components/targetAudienceSection";
+import TransformSection from "@/components/TransformSection";
 
 export default async function Page() {
   const baseUrl = "https://www.creativeeventsaustralia.com.au";
@@ -10,24 +14,25 @@ export default async function Page() {
     cache: "no-store",
   });
 
-  if (!res.ok) {
-    return <main>Failed to load content.</main>;
-  }
-
   const data = await res.json();
-  const site = data[0]; // ✅ FIX
+  const site = Array.isArray(data) ? data[0] : data;
 
   const pageData = site?.pages?.find((p) => p.route === "home");
 
-  if (!pageData) {
-    return <main>Page not found.</main>;
-  }
+  const getSection = (type) =>
+    pageData?.components?.find((c) => c.type === type);
 
   return (
     <main>
-      {pageData.components?.map((b, i) => (
-        <RenderBlock key={i} block={b} site={site} />
-      ))}
+      <TargetAudienceHero {...getSection("target-hero")?.props} />
+      <MetricSection {...getSection("metrics-section")?.props} />
+      <AboutOurTeam {...getSection("about-our-team")?.props} />
+      <TargetAudienceSectionComp {...getSection("target-audience")?.props} />
+      <GridVideo {...getSection("grid-video")?.props} />
+      <TransformSection {...getSection("transform-section")?.props} />
+      {/* <h1 className=" text-white " >
+        Hello world
+      </h1> */}
     </main>
   );
 }

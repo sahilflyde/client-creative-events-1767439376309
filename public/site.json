@@ -1,0 +1,893 @@
+[{
+  "_id": {
+    "$oid": "6958fc101d3ca35b69e79a0f"
+  },
+  "siteId": "site_1767439375636",
+  "websiteName": "Creative Events",
+  "slug": "creative-events-1767439376309",
+  "pages": [
+    {
+      "name": "venue",
+      "route": "venue",
+      "components": []
+    },
+    {
+      "name": "About",
+      "route": "about",
+      "components": [
+        {
+          "type": "about-hero",
+          "props": {
+            "label": "Our Story",
+            "title": "Over  a Decade of \nCurating Culture\n",
+            "subtitle": "Creative Events Australia is a premier event management company based in Melbourne, known for bringing the biggest Punjabi and Bollywood artists to Australia and New Zealand. For over a decade, we’ve organized high-profile concerts, family shows, community events, and gala dinners that unite people across cultures.",
+            "labelVariant": "body-4",
+            "titleVariant": "h4",
+            "subtitleVariant": "body-4"
+          },
+          "children": []
+        },
+        {
+          "type": "about-our-story",
+          "props": {
+            "label": "Co-Founder & Director\n",
+            "title": "Balwindr Lali",
+            "subtitle": "With roots in event organization in Punjab, Balwinder co-founded Creative Events in 2013. His strength lies in community engagement, public relations, and multicultural event management, making him a key figure in Australia’s entertainment landscape.",
+            "imageSrc": "https://ik.imagekit.io/flyde/uploads/1767765356694-651645cdfd3602fee346e5f0768ff04bff819f01_7zQUkHnSv.png",
+            "imageAlt": "Our Story Image",
+            "labelVariant": "body-4",
+            "titleVariant": "h2",
+            "subtitleVariant": "body-4"
+          },
+          "children": []
+        }
+      ],
+      "seo": {
+        "metaTitle": "About us",
+        "metaDescription": "/about",
+        "metaKeywords": "",
+        "canonicalUrl": ""
+      }
+    },
+    {
+      "name": "Home",
+      "route": "home",
+      "components": [
+        {
+          "type": "target-hero",
+          "props": {
+            "label": "Our Target Audience",
+            "title": "Who We Work With",
+            "subtitle": "We collaborate with different types of businesses to deliver impactful solutions.",
+            "columns": 3,
+            "gap": "24px",
+            "minColWidth": "250px",
+            "items": [
+              {
+                "heading": "Satinder Sartaj",
+                "description": "Tickets Link",
+                "imageLink": "https://ik.imagekit.io/flyde/Sartaaj_CE_NATIONAL.jpg",
+                "textPosition": "bottom",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "link": "https://www.heritagetour.com.au"
+              },
+              {
+                "heading": "Rahat Fateh Ali Khan",
+                "description": "Tickets Link",
+                "imageLink": "https://ik.imagekit.io/flyde/Poster.png",
+                "textPosition": "bottom",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "link": "https://drytickets.com.au/event/once-upon-a-time-ustad-rahat-fateh-ali-khan-live-concert-in-melbourne-the-world-tour-2026/"
+              },
+              {
+                "heading": "Tara Sutaria and Orry Live Tour",
+                "description": "Register Now",
+                "imageLink": "https://ik.imagekit.io/p1zreiw3z/IMG_2490.JPG",
+                "textPosition": "bottom",
+                "colSpan": 1,
+                "rowSpan": 1,
+                "link": "https://www.creativeeventsaustralia.com.au/connect"
+              }
+            ]
+          }
+        },
+        {
+          "type": "metrics-section",
+          "props": {
+            "title": "",
+            "subtitle": "",
+            "centerTitle": true,
+            "metrics": [
+              {
+                "number": "10K+",
+                "label": "Shows Organised",
+                "labelVariant": "body-4"
+              },
+              {
+                "number": "500+",
+                "label": "Satisfied Patrons",
+                "labelVariant": "body-4"
+              },
+              {
+                "number": "50+",
+                "label": "Artists Represented",
+                "labelVariant": "body-4"
+              },
+              {
+                "number": "95%",
+                "label": "Landmark Venues",
+                "labelVariant": "body-4"
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "about-our-team",
+          "props": {
+            "label": "Where We Perform",
+            "title": "Iconic Venues. Packed Houses.",
+            "subtitle": "Our journey across Australia’s most prestigious arenas and event spaces.",
+            "members": [
+              {
+                "name": "Rod Laver Arena",
+                "role": "Melbourne · 3 shows",
+                "imageSrc": "https://ik.imagekit.io/flyde/uploads/1768483561301-Rod_Laver_Arena_N5qBr1B6x.jpg"
+              },
+              {
+                "name": "Margaret Court Arena",
+                "role": "Melbourne · 2 shows",
+                "imageSrc": "https://ik.imagekit.io/flyde/uploads/1768483574616-Margaret-Court-Arena-0_0fToEZ--g.jpg"
+              },
+              {
+                "name": "Convention Centre",
+                "role": "Melbourne · 10+ shows",
+                "imageSrc": "https://ik.imagekit.io/flyde/uploads/1768483583246-Melbourne_Convention_Centre_g-r7uEl8-.jpeg"
+              },
+              {
+                "name": "RAC Arena",
+                "role": "Perth · 1 show",
+                "imageSrc": "https://ik.imagekit.io/flyde/uploads/1768483607454-RAC_Arena_CdiBd-4Ozn.jpg"
+              },
+              {
+                "name": "Sidney Myer Music Bowl",
+                "role": "Melbourne · 1 show",
+                "imageSrc": "https://ik.imagekit.io/flyde/uploads/1768483708873-8de5429df44be86061c22efdae33ebde806661d5_TOKcVZvg6.jpg"
+              }
+            ],
+            "alignDesktop": "center",
+            "alignMobile": "center",
+            "compVariant": "pink",
+            "compVariantValues": [
+              "primary",
+              "pink"
+            ]
+          },
+          "children": []
+        },
+        {
+          "type": "target-audience",
+          "props": {
+            "label": "Featured Artists",
+            "title": "Past Shows",
+            "subtitle": "Creating experiences for more than a decade.",
+            "columns": 3,
+            "gap": 30,
+            "minColWidth": 320,
+            "variant": "expandable",
+            "initialCount": 3,
+            "expandLabel": "View All Artists",
+            "collapseLabel": "Show Less",
+            "items": [
+              {
+                "heading": "KARAN AUJLA",
+                "description": "2019 , 2022 , 2024SOLD OUT",
+                "imageLink": "https://ik.imagekit.io/flyde/uploads/1768477827217-12543219068e22e44d1f1478aad91189d51b6016__1__yd2PFt0bF.jpg",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "GURDAS MAAN",
+                "description": "2018 , 2023 , 2025",
+                "imageLink": "https://ik.imagekit.io/flyde/uploads/1768477795675-af5405669410cd5015300b708871106a26f20535_aE_LWAh8e.jpg",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "BHAGWANT MAAN",
+                "description": "2015",
+                "imageLink": "https://static.punjabkesari.in/multimedia/2023_9image_12_21_5708480611.jpg",
+                "textPosition": "bottom"
+              },
+              {
+                "heading": "KAPIL SHARMA",
+                "description": "2013",
+                "imageLink": "https://www.bollywoodhungama.com/wp-content/uploads/2024/10/Kapil-Sharma-DP.jpg",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "MANMOHAN WARIS",
+                "description": "2009, 2015,2019",
+                "imageLink": "https://i1.sndcdn.com/artworks-000527832777-85wp91-t500x500.jpg",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "KAMAL HEER",
+                "description": "2009, 2015, 2019",
+                "imageLink": "https://i1.sndcdn.com/artworks-FYyrOFT3HaRtQWHR-MUAbDQ-t500x500.jpg",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "JASSI GILL",
+                "description": "SANDOWN RACECOURSE, MELBOURNE, 2022",
+                "imageLink": "https://ik.imagekit.io/flyde/uploads/1768477955479-150766c85785734297d969e530811d41864dc38e_yd6VvcOcM.png",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "JAZZY B",
+                "description": "Albert park ground, MELBOURNE, 2018",
+                "imageLink": "https://ik.imagekit.io/flyde/uploads/1768477983020-17fdc5cab4b0d544e2963ca66339a03356e8d397_ya4yurCY0.png",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              },
+              {
+                "heading": "ARIJIT SINGH",
+                "description": "THE PALAISE THEATRE, MELBOURNE, 2013",
+                "imageLink": "https://ik.imagekit.io/flyde/uploads/1768478017043-63450784e2d5bfd73a4dfd87d81515ccfd33f84b_BGNmsyHlq.png",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ]
+              }
+            ],
+            "expandLabelVariant": "h4"
+          },
+          "children": []
+        },
+        {
+          "type": "grid-video",
+          "props": {
+            "label": "",
+            "title": "Highlight Reel",
+            "subtitle": "Creating experiences for more than a decade.",
+            "centerTitle": "center",
+            "videoSrc": "https://ik.imagekit.io/75zj3bigp/IMG_6312.mp4",
+            "imageSrc": "https://ik.imagekit.io/flyde/Hirezy/image(3).png",
+            "compVariant": "video",
+            "compVariantValues": [
+              "video",
+              "image"
+            ],
+            "titleVariant": "h2",
+            "labelVariant": "body-3",
+            "subtitleVariant": "body-4"
+          },
+          "children": []
+        },
+        {
+          "type": "transform-section",
+          "props": {
+            "title": "Let’s Create Something\nExtraordinary Together",
+            "desc": "Whether you’re an artist, brand, or partner — we’re ready to build the next unforgettable experience together.",
+            "btnText": "Get in Touch",
+            "btnIcon": "https://ik.imagekit.io/flyde/uploads/1768484073095-Arrow_Right_RqK1iUrbU.png",
+            "bgImage": "https://placehold.co/1200x600",
+            "buttonLink": "#",
+            "titleVariant": "",
+            "descVariant": "",
+            "buttonTextVariant": ""
+          },
+          "children": []
+        }
+      ],
+      "seo": {
+        "metaTitle": "",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "canonicalUrl": ""
+      }
+    },
+    {
+      "name": "Connect",
+      "route": "connect",
+      "components": [
+        {
+          "type": "contact-support-options",
+          "props": {
+            "header": {
+              "label": "Contact Us",
+              "title": "Let's Start a Conversation",
+              "subtitle": "Have questions about Hirezy? We're here to help. Reach out to our team and we'll get back to you as soon as possible.",
+              "align": "center"
+            },
+            "supportSection": {
+              "header": {
+                "label": "Support Options",
+                "title": "More Ways to Get Help",
+                "subtitle": "Choose the support option that works best for you.",
+                "align": "center",
+                "labelBgColor": "white"
+              },
+              "cards": [
+                {
+                  "title": "Help Center",
+                  "description": "Browse our comprehensive documentation and find answers to common questions.",
+                  "iconSrc": "https://ik.imagekit.io/a9uxeuyhx/Container.png",
+                  "textLink": "Visit Help Center →"
+                },
+                {
+                  "title": "Live Chat",
+                  "description": "Chat with our support team in real-time for immediate assistance.",
+                  "iconSrc": "https://ik.imagekit.io/a9uxeuyhx/Container%20(1).png",
+                  "textLink": "Start Chat →"
+                },
+                {
+                  "title": "Schedule a Call",
+                  "description": "Book a time to speak with one of our product specialists.",
+                  "iconSrc": "https://ik.imagekit.io/a9uxeuyhx/Container%20(2).png",
+                  "textLink": "Book a Call →"
+                }
+              ]
+            },
+            "formSection": {
+              "header": {
+                "label": "Get in Touch",
+                "title": "Send Us a Message",
+                "subtitle": "Fill out the form below and our team will respond within 24 hours."
+              },
+              "fields": [
+                {
+                  "type": "group",
+                  "columns": 2,
+                  "inputs": [
+                    {
+                      "label": "First Name",
+                      "name": "firstName",
+                      "placeholder": "Enter first name",
+                      "inputType": "text"
+                    },
+                    {
+                      "label": "Last Name",
+                      "name": "lastName",
+                      "placeholder": "Enter last name",
+                      "inputType": "text"
+                    }
+                  ]
+                },
+                {
+                  "label": "Email Address",
+                  "name": "email",
+                  "placeholder": "your.email@company.com",
+                  "inputType": "email"
+                },
+                {
+                  "label": "Company Name",
+                  "name": "company",
+                  "placeholder": "Enter your company name",
+                  "inputType": "text"
+                },
+                {
+                  "label": "Message",
+                  "name": "message",
+                  "placeholder": "Tell us how we can help...",
+                  "inputType": "textarea"
+                }
+              ],
+              "submitButton": {
+                "label": "Send Message",
+                "iconSrc": "https://ik.imagekit.io/a9uxeuyhx/Arrow%20Right.png"
+              }
+            },
+            "sideInfo": {
+              "contactInfo": {
+                "email": "info@creativeeventsaustralia.com.au",
+                "phone": "",
+                "address": "Melbourne, Australia"
+              },
+              "officeHours": {
+                "days": [
+                  {
+                    "label": "Monday – Friday",
+                    "time": "9:00 AM – 6:00 PM"
+                  },
+                  {
+                    "label": "Saturday",
+                    "time": "10:00 AM – 2:00 PM"
+                  },
+                  {
+                    "label": "Sunday",
+                    "time": "Closed"
+                  }
+                ]
+              }
+            }
+          },
+          "children": []
+        }
+      ],
+      "seo": {
+        "metaTitle": "",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "canonicalUrl": ""
+      }
+    }
+  ],
+  "owner": {
+    "$oid": "6958f9ce1d3ca35b69e799ef"
+  },
+  "colors": {
+    "lime": "linear-gradient(279deg, #FF2883 0.45%, #FF5A4D 81.82%)",
+    "blue-500": "#f9f9f9",
+    "blue-400": "#ffffff",
+    "blue-300": "#3c3c3c",
+    "black-300": "#aaaaaa",
+    "black-400": "#f9f9f9",
+    "black-500": "#ffffff",
+    "white": "#050505",
+    "light-white": "#d9d9d9",
+    "black-100": "#E5E5E5"
+  },
+  "darkcolors": {
+    "lime": "#ff2883",
+    "blue-500": "#f9f9f9",
+    "blue-400": "#ffffff",
+    "blue-300": "#000000",
+    "black-300": "#aaaaaa",
+    "black-400": "#636363",
+    "black-500": "#222222",
+    "white": "#ffffff",
+    "light-white": "#d9d9d9",
+    "black-100": "#E5E5E5"
+  },
+  "fonts": {
+    "google": [
+      {
+        "family": "Rock Salt",
+        "importUrl": "https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      },
+      {
+        "family": "Montserrat",
+        "importUrl": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      }
+    ]
+  },
+  "typography": {
+    "h1": {
+      "desktop": {
+        "fontSize": "64px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "48px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "40px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "36px",
+        "lineHeight": "130%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "h2": {
+      "desktop": {
+        "fontSize": "48px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-rock-salt)"
+      },
+      "laptop": {
+        "fontSize": "40px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "32px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "h3": {
+      "desktop": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "22px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "22px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "20px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "h4": {
+      "desktop": {
+        "fontSize": "20px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "h5": {
+      "desktop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "500",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "h6": {
+      "desktop": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "14px",
+        "lineHeight": "120%",
+        "fontWeight": "600",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "body-1": {
+      "desktop": {
+        "fontSize": "32px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "24px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "18px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "14px",
+        "lineHeight": "120%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "body-2": {
+      "desktop": {
+        "fontSize": "24px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "20px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "body-3": {
+      "desktop": {
+        "fontSize": "18px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-jakarta)"
+      },
+      "tablet": {
+        "fontSize": "14px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "160%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "body-4": {
+      "desktop": {
+        "fontSize": "16px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "16px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-400)",
+        "font": "var(--font-montserrat)"
+      }
+    },
+    "body-5": {
+      "desktop": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "laptop": {
+        "fontSize": "14px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "tablet": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      },
+      "mobile": {
+        "fontSize": "12px",
+        "lineHeight": "150%",
+        "fontWeight": "400",
+        "color": "var(--color-black-500)",
+        "font": "var(--font-montserrat)"
+      }
+    }
+  },
+  "spacingTokens": {},
+  "radiusTokens": {},
+  "domain": "creativeeventsaustralia.com.au",
+  "logo": "https://ik.imagekit.io/flyde/uploads/1767438907864-Rectangle_vb4NGgx8y.png",
+  "favicon": "https://ik.imagekit.io/flyde/uploads/1768480676381-Favicon__3__JOshwSEHlY.png",
+  "domainStatus": "pending",
+  "deploy": {
+    "status": "done",
+    "message": "Finalising Deployment",
+    "githubURL": "https://github.com/sahilflyde/client-creative-events-1767439376309",
+    "projectID": "prj_2CKfDny3zdqlUcc4EgFWHzjdNa3G",
+    "vercelUrl": "creativeeventsaustralia.com.au"
+  },
+  "layout": {
+    "header": {
+      "type": "header-sec",
+      "props": {
+        "navLinks": [],
+        "ctaText": "Connect",
+        "ctaLink": "/connect"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "footer-section",
+      "props": {
+        "description": "Our vision is to curate experiences that bring people closer to their cultural roots, creating moments of joy and connection.",
+        "socials": [
+          {
+            "name": "IG",
+            "href": "https://www.instagram.com/creative_events_australia?igsh=emN6MTM2M25tcHJ1"
+          },
+          {
+            "name": "FB",
+            "href": "https://www.facebook.com/share/19w1BRd1k1/?mibextid=wwXIfr"
+          },
+          {
+            "name": "TK",
+            "href": "https://www.tiktok.com/@creativeeventsaustraliaa?_r=1&_t=ZS-937Dl9jaCbV"
+          }
+        ],
+        "quickLinks": [],
+        "contacts": [
+          {
+            "text": "+61-479121350",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(7).png?updatedAt=1764071470889"
+          },
+          {
+            "text": "Info@creativeeventsaustralia.com.au",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Container%20(1).png?updatedAt=1764070999276"
+          },
+          {
+            "text": "Melbourne, Australia",
+            "icon": "https://ik.imagekit.io/75zj3bigp/Container%20(2).png?updatedAt=1764071811723"
+          }
+        ],
+        "subscribeTitle": "Latest Concert Updates",
+        "subscribeSubtitle": "Join our community and stay updated on concerts, cultural events, and special experiences.",
+        "copyright": "Copyright © 2026 Creative Events Australia. All Rights Reserved."
+      },
+      "children": []
+    }
+  },
+  "darkmodeOn": false,
+  "createdAt": {
+    "$date": "2026-01-03T11:22:56.319Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T07:22:22.377Z"
+  },
+  "__v": 3,
+  "analytics": {},
+  "theme": {},
+  "fonts_old": {},
+  "seo": {}
+}]

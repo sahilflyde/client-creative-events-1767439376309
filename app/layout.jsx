@@ -1,27 +1,21 @@
-
 import "./globals.scss";
 import RenderBlock from "../components/RenderBlock";
 import ImagePopup from "../components/ImagePopup.jsx";
 
-
 export default async function RootLayout({ children }) {
-  const slug = process.env.SITE_SLUG;
+  const baseUrl =
+    "https://www.creativeeventsaustralia.com.au";
 
-  const res = await fetch(
-    `https://blinkflo-backend-vx9r.onrender.com/api/websites/${slug}`,
-    { cache: "no-store" }
-  );
-  const site = await res.json();
+  const res = await fetch(`${baseUrl}/site.json`, {
+    cache: "no-store",
+  });
 
- 
+  const data = await res.json();
+  const site = data[0];
 
-  // ✅ Decide active color set
   const activeColors =
-    site?.darkmodeOn && site?.darkcolors
-      ? site.darkcolors
-      : site?.colors || {};
+    site?.darkmodeOn && site?.darkcolors ? site.darkcolors : site?.colors || {};
 
-  // ✅ Generate CSS variables
   const cssVariables = Object.entries(activeColors)
     .map(([key, value]) => `--color-${key}: ${value};`)
     .join("\n");
@@ -32,7 +26,12 @@ export default async function RootLayout({ children }) {
         <title>{site.websiteName}</title>
         <link rel="icon" href={site.favicon} />
 
-        {/* ✅ Inject dynamic CSS variables */}
+        {/* ✅ Fonts */}
+        {site?.fonts?.google?.map((font) => (
+          <link key={font.family} href={font.importUrl} rel="stylesheet" />
+        ))}
+
+        {/* ✅ CSS Variables */}
         <style>{`
           :root {
             ${cssVariables}
@@ -41,11 +40,6 @@ export default async function RootLayout({ children }) {
       </head>
 
       <body>
-
-      
-
-      
-        {/* GLOBAL HEADER */}
         {site.layout?.header && (
           <RenderBlock
             block={site.layout.header}
@@ -56,12 +50,8 @@ export default async function RootLayout({ children }) {
 
         {children}
 
-        {/* GLOBAL FOOTER */}
         {site.layout?.footer && (
-          <RenderBlock
-            block={site.layout.footer}
-            site={site}
-          />
+          <RenderBlock block={site.layout.footer} site={site} />
         )}
       </body>
     </html>

@@ -1,19 +1,26 @@
-
 import dynamic from "next/dynamic";
-const RenderBlock = dynamic(() => import("../../components/RenderBlock"), { ssr: false });
+
+const RenderBlock = dynamic(() => import("../../components/RenderBlock"), {
+  ssr: false,
+});
 
 export default async function Page() {
-  const res = await fetch(
-    "https://blinkflo-backend-vx9r.onrender.com/api/websites/creative-events-1767439376309",
-    { cache: "no-store" }
-  );
+  const baseUrl = "https://www.creativeeventsaustralia.com.au";
+
+  const res = await fetch(`${baseUrl}/site.json`, {
+    cache: "no-store",
+  });
 
   if (!res.ok) {
     return <main>Failed to load content.</main>;
   }
 
-  const site = await res.json();
-  const pageData = site?.pages?.find(p => p.route === "connect");
+  const data = await res.json();
+
+  // ✅ handle array JSON
+  const site = Array.isArray(data) ? data[0] : data;
+
+  const pageData = site?.pages?.find((p) => p.route === "connect");
 
   if (!pageData) {
     return <main>Page not found.</main>;
@@ -21,10 +28,9 @@ export default async function Page() {
 
   return (
     <main>
-    {pageData.components?.map((b, i) => (
-      <RenderBlock key={i} block={b} site={site} />
-    ))}
-    
+      {pageData.components?.map((b, i) => (
+        <RenderBlock key={i} block={b} site={site} />
+      ))}
     </main>
   );
 }

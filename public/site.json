@@ -64,15 +64,6 @@
             "minColWidth": "250px",
             "items": [
               {
-                "heading": "Satinder Sartaj",
-                "description": "Tickets Link",
-                "imageLink": "https://ik.imagekit.io/flyde/Sartaaj_CE_NATIONAL.jpg",
-                "textPosition": "bottom",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "link": "https://www.heritagetour.com.au"
-              },
-              {
                 "heading": "Rahat Fateh Ali Khan",
                 "description": "Tickets Link",
                 "imageLink": "https://ik.imagekit.io/flyde/Poster.png",

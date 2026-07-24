@@ -101,12 +101,12 @@
             "centerTitle": true,
             "metrics": [
               {
-                "number": "10K+",
+                "number": "100 +",
                 "label": "Shows Organised",
                 "labelVariant": "body-4"
               },
               {
-                "number": "500+",
+                "number": "500k",
                 "label": "Satisfied Patrons",
                 "labelVariant": "body-4"
               },

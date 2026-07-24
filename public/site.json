@@ -101,7 +101,7 @@
             "centerTitle": true,
             "metrics": [
               {
-                "number": "100 +",
+                "number": "100+",
                 "label": "Shows Organised",
                 "labelVariant": "body-4"
               },

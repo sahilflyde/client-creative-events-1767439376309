@@ -64,15 +64,6 @@
             "minColWidth": "250px",
             "items": [
               {
-                "heading": "Rahat Fateh Ali Khan",
-                "description": "Tickets Link",
-                "imageLink": "https://ik.imagekit.io/flyde/Poster.png",
-                "textPosition": "bottom",
-                "colSpan": 1,
-                "rowSpan": 1,
-                "link": "https://drytickets.com.au/event/once-upon-a-time-ustad-rahat-fateh-ali-khan-live-concert-in-melbourne-the-world-tour-2026/"
-              },
-              {
                 "heading": "Tara Sutaria and Orry Live Tour",
                 "description": "Register Now",
                 "imageLink": "https://ik.imagekit.io/p1zreiw3z/IMG_2490.JPG",
@@ -181,6 +172,18 @@
             "expandLabel": "View All Artists",
             "collapseLabel": "Show Less",
             "items": [
+              {
+                "heading": "Rahat Fateh Ali Khan",
+                "description": "Tickets Link",
+                "imageLink": "https://ik.imagekit.io/flyde/Poster.png",
+                "textPosition": "bottom",
+                "variant": "compact",
+                "compVariantValues": [
+                  "default",
+                  "compact"
+                ],
+                "link": "https://drytickets.com.au/event/once-upon-a-time-ustad-rahat-fateh-ali-khan-live-concert-in-melbourne-the-world-tour-2026/"
+              },
               {
                 "heading": "KARAN AUJLA",
                 "description": "2019 , 2022 , 2024SOLD OUT",

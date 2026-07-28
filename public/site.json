@@ -59,7 +59,7 @@
             "label": "Our Target Audience",
             "title": "Who We Work With",
             "subtitle": "We collaborate with different types of businesses to deliver impactful solutions.",
-            "columns": 3,
+            "columns": 2,
             "gap": "24px",
             "minColWidth": "250px",
             "items": [
@@ -174,15 +174,14 @@
             "items": [
               {
                 "heading": "Rahat Fateh Ali Khan",
-                "description": "Tickets Link",
+                "description": "2026 SOLD OUT",
                 "imageLink": "https://ik.imagekit.io/flyde/Poster.png",
                 "textPosition": "bottom",
                 "variant": "compact",
                 "compVariantValues": [
                   "default",
                   "compact"
-                ],
-                "link": "https://drytickets.com.au/event/once-upon-a-time-ustad-rahat-fateh-ali-khan-live-concert-in-melbourne-the-world-tour-2026/"
+                ]
               },
               {
                 "heading": "KARAN AUJLA",
